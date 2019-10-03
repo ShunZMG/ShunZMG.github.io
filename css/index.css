@@ -42,7 +42,7 @@ body {
   background-color: transparent;
 }
 #web_bg {
-  background: url("https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png");
+  background: #f2f2f2;
   height: 100%;
   width: 100%;
   -webkit-background-size: cover;
@@ -1346,7 +1346,7 @@ footer:before {
   margin-bottom: 1rem;
 }
 #nav.full_page {
-  height: 150px;
+  height: 160px;
 }
 #nav .nav_bg {
   width: 100%;
@@ -1380,7 +1380,7 @@ footer:before {
 #site-info {
   position: absolute;
   width: 100%;
-  top: 40%;
+  top: 35%;
 }
 #site-title,
 #site-sub-title {
