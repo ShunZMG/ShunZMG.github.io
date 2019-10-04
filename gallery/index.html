@@ -28,7 +28,7 @@
     </div>
   
 </div><nav id="pagination"><div class="pagination"></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = true == true ? true : false;
-var verify = false == true ? true : false;
+var verify = true == true ? true : false;
 var GUEST_INFO = ['nick','mail','link'];
 var guest_info = 'nick,mail,link'.split(',').filter(function(item){
   return GUEST_INFO.indexOf(item) > -1
@@ -41,7 +41,7 @@ window.valine = new Valine({
   verify:verify,
   appId:'gz2OpbObGrkL15ON07GyeYkF-gzGzoHsz',
   appKey:'kFeCpG6z0c0LzvTufYD1qT6A',
-  placeholder:'Please leave your footprints',
+  placeholder:'发表评论请记得带上昵称和邮箱哦，这样博主就能找到你啦^-^',
   avatar:'monsterid',
   guest_info:guest_info,
   pageSize:'10',
